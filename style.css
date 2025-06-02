@@ -1,0 +1,135 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #e6f0fa; 
+    color: #1a4768; 
+}
+
+nav {
+     background-color:#1a4768; 
+     padding: 10px; 
+     display: flex; 
+     justify-content: center; 
+     border-bottom-left-radius: 15px; 
+     border-bottom-right-radius: 15px; 
+}
+
+nav button {
+     background-color: #ffffff;
+    color: #1a4768; 
+    border: none; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    transition: background-color 0.3s; 
+}
+
+nav button:hover {
+     background-color: #cce6ff; 
+}
+
+.tela { 
+    padding: 30px; 
+}
+
+.hidden {
+    display: none; 
+}
+
+form { 
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+    margin-bottom: 20px; 
+    max-width: 500px;
+    border: 1.4px solid #1a4768; 
+}
+
+form input {
+    padding: 10px; 
+    margin: 8px; 
+    border: 1px solid #b3cce6; 
+    border-radius: 10px; 
+    width: calc(100% - 26px); 
+}
+
+form button { 
+    padding: 10px 20px; 
+    background-color: #1a4768; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: background-color 0.3s; 
+}
+
+form button:hover {
+    background-color: #1a4768; 
+}
+
+#listaProdutos li {
+    margin: 10px 0; 
+    background-color: #ffffff; 
+    padding: 15px; 
+    border: 1.4px solid #1a4768; 
+    border-radius: 12px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+#listaProdutos button {
+    margin-left: 5px; 
+    background-color: #1a4768; 
+    color: #fff; 
+    border: none; 
+    padding: 6px 10px; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+#listaProdutos button:hover {
+    background-color:#1a4768; 
+}
+
+.card {
+    
+    background-color: white; 
+    border: 1.4px solid #1a4768; 
+    padding: 20px; 
+    margin: 10px; 
+    border-radius: 15px; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+    width: 220px; 
+}
+
+.card h3 { 
+    color: #0d3c68; 
+    margin-bottom: 10px; 
+}
+
+#cardsContainer { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+}
+  
+  #cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  #cardsContainer {
+    border: 2px solid #1a4768;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f0f8ff;
+  }

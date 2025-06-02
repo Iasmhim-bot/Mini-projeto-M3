@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard de Cadastro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <button onclick="mostrarTela('dashboard')">Dashboard</button>
+    <button onclick="mostrarTela('apresentacao')">Apresentação</button>
+  </nav>
+
+  <section id="dashboard" class="tela">
+    <h1>Dashboard de Cadastro</h1>
+    <form id="formCadastro">
+      <input type="text" id="nome" placeholder="Nome do Produto" required />
+      <input type="text" id="descricao" placeholder="Descrição" required />
+      <button type="submit">Cadastrar</button>
+    </form>
+    <ul id="listaProdutos"></ul>
+  </section>
+
+  <section id="apresentacao" class="tela hidden">
+    <h1>Produtos Cadastrados</h1>
+    <div id="cardsContainer"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
